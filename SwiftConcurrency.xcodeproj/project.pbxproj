@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF5865FF2C257ECA00893B16 /* Concurrency1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5865FE2C257ECA00893B16 /* Concurrency1.swift */; };
 		DF87D3C02C2564A5000C0DF9 /* ErrorHandling1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF87D3BF2C2564A5000C0DF9 /* ErrorHandling1.swift */; };
+		DF87D3C22C256F4C000C0DF9 /* DownloadingImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF87D3C12C256F4C000C0DF9 /* DownloadingImageAsync.swift */; };
 		DFA280BD2C2439C700985151 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280BC2C2439C700985151 /* SwiftConcurrencyApp.swift */; };
 		DFA280BF2C2439C700985151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280BE2C2439C700985151 /* ContentView.swift */; };
 		DFA280C12C2439C800985151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA280C02C2439C800985151 /* Assets.xcassets */; };
@@ -16,8 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF5865FE2C257ECA00893B16 /* Concurrency1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrency1.swift; sourceTree = "<group>"; };
 		DF68A1692C24DA3A001E87C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DF87D3BF2C2564A5000C0DF9 /* ErrorHandling1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling1.swift; sourceTree = "<group>"; };
+		DF87D3C12C256F4C000C0DF9 /* DownloadingImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageAsync.swift; sourceTree = "<group>"; };
 		DFA280B92C2439C700985151 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA280BC2C2439C700985151 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		DFA280BE2C2439C700985151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				DFA280CA2C2439D600985151 /* App */,
+				DF5865FE2C257ECA00893B16 /* Concurrency1.swift */,
 				DFA280BE2C2439C700985151 /* ContentView.swift */,
+				DF87D3C12C256F4C000C0DF9 /* DownloadingImageAsync.swift */,
 				DF87D3BF2C2564A5000C0DF9 /* ErrorHandling1.swift */,
 				DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */,
 				DFA280C22C2439C800985151 /* Preview Content */,
@@ -154,9 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFA280CC2C2439FE00985151 /* ErrorHandling2.swift in Sources */,
+				DF5865FF2C257ECA00893B16 /* Concurrency1.swift in Sources */,
 				DF87D3C02C2564A5000C0DF9 /* ErrorHandling1.swift in Sources */,
 				DFA280BF2C2439C700985151 /* ContentView.swift in Sources */,
 				DFA280BD2C2439C700985151 /* SwiftConcurrencyApp.swift in Sources */,
+				DF87D3C22C256F4C000C0DF9 /* DownloadingImageAsync.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
