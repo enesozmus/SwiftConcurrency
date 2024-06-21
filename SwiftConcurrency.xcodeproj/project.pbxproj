@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF87D3C02C2564A5000C0DF9 /* ErrorHandling1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF87D3BF2C2564A5000C0DF9 /* ErrorHandling1.swift */; };
 		DFA280BD2C2439C700985151 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280BC2C2439C700985151 /* SwiftConcurrencyApp.swift */; };
 		DFA280BF2C2439C700985151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280BE2C2439C700985151 /* ContentView.swift */; };
 		DFA280C12C2439C800985151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA280C02C2439C800985151 /* Assets.xcassets */; };
 		DFA280C42C2439C800985151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA280C32C2439C800985151 /* Preview Assets.xcassets */; };
+		DFA280CC2C2439FE00985151 /* ErrorHandling2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF68A1692C24DA3A001E87C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DF87D3BF2C2564A5000C0DF9 /* ErrorHandling1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling1.swift; sourceTree = "<group>"; };
 		DFA280B92C2439C700985151 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA280BC2C2439C700985151 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		DFA280BE2C2439C700985151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFA280C02C2439C800985151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFA280C32C2439C800985151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,7 @@
 		DFA280B02C2439C700985151 = {
 			isa = PBXGroup;
 			children = (
+				DF68A1692C24DA3A001E87C4 /* README.md */,
 				DFA280BB2C2439C700985151 /* SwiftConcurrency */,
 				DFA280BA2C2439C700985151 /* Products */,
 			);
@@ -51,9 +57,10 @@
 		DFA280BB2C2439C700985151 /* SwiftConcurrency */ = {
 			isa = PBXGroup;
 			children = (
-				DFA280BC2C2439C700985151 /* SwiftConcurrencyApp.swift */,
+				DFA280CA2C2439D600985151 /* App */,
 				DFA280BE2C2439C700985151 /* ContentView.swift */,
-				DFA280C02C2439C800985151 /* Assets.xcassets */,
+				DF87D3BF2C2564A5000C0DF9 /* ErrorHandling1.swift */,
+				DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */,
 				DFA280C22C2439C800985151 /* Preview Content */,
 			);
 			path = SwiftConcurrency;
@@ -65,6 +72,15 @@
 				DFA280C32C2439C800985151 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFA280CA2C2439D600985151 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DFA280C02C2439C800985151 /* Assets.xcassets */,
+				DFA280BC2C2439C700985151 /* SwiftConcurrencyApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA280CC2C2439FE00985151 /* ErrorHandling2.swift in Sources */,
+				DF87D3C02C2564A5000C0DF9 /* ErrorHandling1.swift in Sources */,
 				DFA280BF2C2439C700985151 /* ContentView.swift in Sources */,
 				DFA280BD2C2439C700985151 /* SwiftConcurrencyApp.swift in Sources */,
 			);
