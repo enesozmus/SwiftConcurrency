@@ -17,6 +17,7 @@
 		DFA280C12C2439C800985151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA280C02C2439C800985151 /* Assets.xcassets */; };
 		DFA280C42C2439C800985151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA280C32C2439C800985151 /* Preview Assets.xcassets */; };
 		DFA280CC2C2439FE00985151 /* ErrorHandling2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */; };
+		DFC73AF72C26F724007FB6CF /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC73AF62C26F724007FB6CF /* Tasks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DFA280C02C2439C800985151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFA280C32C2439C800985151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling2.swift; sourceTree = "<group>"; };
+		DFC73AF62C26F724007FB6CF /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				DF87D3BF2C2564A5000C0DF9 /* ErrorHandling1.swift */,
 				DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */,
 				DFA280C22C2439C800985151 /* Preview Content */,
+				DFC73AF62C26F724007FB6CF /* Tasks.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				DF5865FF2C257ECA00893B16 /* Concurrency1.swift in Sources */,
 				DF753E7A2C25DE49003EDCDF /* Concurrency2.swift in Sources */,
 				DF87D3C02C2564A5000C0DF9 /* ErrorHandling1.swift in Sources */,
+				DFC73AF72C26F724007FB6CF /* Tasks.swift in Sources */,
 				DFA280BF2C2439C700985151 /* ContentView.swift in Sources */,
 				DFA280BD2C2439C700985151 /* SwiftConcurrencyApp.swift in Sources */,
 				DF87D3C22C256F4C000C0DF9 /* DownloadingImageAsync.swift in Sources */,
