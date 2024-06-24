@@ -1,5 +1,5 @@
 //
-//  Tasks.swift
+//  TaskStudy.swift
 //  SwiftConcurrency
 //
 //  Created by enesozmus on 22.06.2024.
@@ -9,7 +9,7 @@ import SwiftUI
 
 
 // MARK: ViewModel
-class TasksViewModel: ObservableObject {
+class TaskStudyViewModel: ObservableObject {
     @Published var image: UIImage? = nil
     @Published var image2: UIImage? = nil
     
@@ -46,7 +46,7 @@ struct TaskBootcampHomeView: View {
         NavigationStack {
             ZStack {
                 NavigationLink("CLICK ME! ⭐") {
-                    Tasks()
+                    TaskStudy()
                 }
             }
         }
@@ -55,9 +55,9 @@ struct TaskBootcampHomeView: View {
 
 
 // MARK: View
-struct Tasks: View {
+struct TaskStudy: View {
     
-    @StateObject private var viewModel = TasksViewModel()
+    @StateObject private var viewModel = TaskStudyViewModel()
     @State private var fetchImageTask: Task<(), Never>? = nil
     
     var body: some View {

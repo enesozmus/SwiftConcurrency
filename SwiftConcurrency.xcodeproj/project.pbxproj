@@ -16,6 +16,7 @@
 		DF7A82FF2C285D940061442F /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A82FE2C285D940061442F /* APIService.swift */; };
 		DF7A83032C2870C30061442F /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A83022C2870C30061442F /* UsersListView.swift */; };
 		DF7A83062C287C810061442F /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A83052C287C810061442F /* UsersListViewModel.swift */; };
+		DF7E493A2C29DC15005647D4 /* TaskGroupStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E49392C29DC15005647D4 /* TaskGroupStudy.swift */; };
 		DF86DC672C295D5100BBA9A1 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86DC662C295D5100BBA9A1 /* AsyncLet.swift */; };
 		DF87D3C02C2564A5000C0DF9 /* ErrorHandling1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF87D3BF2C2564A5000C0DF9 /* ErrorHandling1.swift */; };
 		DF87D3C22C256F4C000C0DF9 /* DownloadingImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF87D3C12C256F4C000C0DF9 /* DownloadingImageAsync.swift */; };
@@ -30,7 +31,7 @@
 		DFA280C12C2439C800985151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA280C02C2439C800985151 /* Assets.xcassets */; };
 		DFA280C42C2439C800985151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA280C32C2439C800985151 /* Preview Assets.xcassets */; };
 		DFA280CC2C2439FE00985151 /* ErrorHandling2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */; };
-		DFC73AF72C26F724007FB6CF /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC73AF62C26F724007FB6CF /* Tasks.swift */; };
+		DFC73AF72C26F724007FB6CF /* TaskStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC73AF62C26F724007FB6CF /* TaskStudy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		DF7A82FE2C285D940061442F /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		DF7A83022C2870C30061442F /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
 		DF7A83052C287C810061442F /* UsersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModel.swift; sourceTree = "<group>"; };
+		DF7E49392C29DC15005647D4 /* TaskGroupStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupStudy.swift; sourceTree = "<group>"; };
 		DF86DC662C295D5100BBA9A1 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		DF87D3BF2C2564A5000C0DF9 /* ErrorHandling1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling1.swift; sourceTree = "<group>"; };
 		DF87D3C12C256F4C000C0DF9 /* DownloadingImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageAsync.swift; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 		DFA280C02C2439C800985151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFA280C32C2439C800985151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling2.swift; sourceTree = "<group>"; };
-		DFC73AF62C26F724007FB6CF /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		DFC73AF62C26F724007FB6CF /* TaskStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStudy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +162,8 @@
 				DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */,
 				DFA280C22C2439C800985151 /* Preview Content */,
 				DF7A82F72C285D240061442F /* Review */,
-				DFC73AF62C26F724007FB6CF /* Tasks.swift */,
+				DF7E49392C29DC15005647D4 /* TaskGroupStudy.swift */,
+				DFC73AF62C26F724007FB6CF /* TaskStudy.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -265,9 +268,10 @@
 				DF5865FF2C257ECA00893B16 /* Concurrency1.swift in Sources */,
 				DF753E7A2C25DE49003EDCDF /* Concurrency2.swift in Sources */,
 				DF87D3C02C2564A5000C0DF9 /* ErrorHandling1.swift in Sources */,
-				DFC73AF72C26F724007FB6CF /* Tasks.swift in Sources */,
+				DFC73AF72C26F724007FB6CF /* TaskStudy.swift in Sources */,
 				DFA280BF2C2439C700985151 /* ContentView.swift in Sources */,
 				DFA280BD2C2439C700985151 /* SwiftConcurrencyApp.swift in Sources */,
+				DF7E493A2C29DC15005647D4 /* TaskGroupStudy.swift in Sources */,
 				DF87D3C22C256F4C000C0DF9 /* DownloadingImageAsync.swift in Sources */,
 				DF7A82FA2C285D320061442F /* UserModel.swift in Sources */,
 				DF8C35702C288F6C00F906E1 /* PostsListViewModel.swift in Sources */,

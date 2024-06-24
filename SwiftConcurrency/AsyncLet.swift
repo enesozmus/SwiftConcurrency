@@ -30,7 +30,7 @@ struct AsyncLet: View {
                         async let fetchTitle = fetchTitle()
                         let (image, title) = try await (fetchImage, fetchTitle)
                         self.images.append(image)
-                        
+                        print(title)
                         /*
                         async let fetchImage1 = fetchImage()
                         async let fetchImage2 = fetchImage()
