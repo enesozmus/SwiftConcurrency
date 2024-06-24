@@ -12,6 +12,8 @@
 > > (1) @escaping closures (2) Combine (3) Async / Await
 > - ⚙️ [Async/Await Keywords and Threads](./SwiftConcurrency/AsyncAwait.swift)
 > > Asynchronous tasks and Background threads
+> - ⚙️ [Async Let](./SwiftConcurrency/AsyncLet.swift)
+> > This allows us to easily perform multiple asynchronous functions at the same time.
 > - ⚙️ [Review - From Completion Handler to Async and Await](./SwiftConcurrency/Review)
 > > - In this part, we will focus on creating our models from the JSON and an APIService to process the response.
 > > - In this part, we will create a generic function to handle the different api endpoints and models and use a Result based completion handler with our own designed API Error.
