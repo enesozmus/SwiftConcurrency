@@ -26,6 +26,7 @@
 		DF8C35702C288F6C00F906E1 /* PostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8C356F2C288F6C00F906E1 /* PostsListViewModel.swift */; };
 		DF8C35722C288FAF00F906E1 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8C35712C288FAF00F906E1 /* PostsListView.swift */; };
 		DF92765A2C28C68500114D09 /* UserAndPostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9276592C28C68500114D09 /* UserAndPostsModel.swift */; };
+		DF9BA5A32C2AB5400053EBB2 /* Continuations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BA5A22C2AB5400053EBB2 /* Continuations.swift */; };
 		DFA280BD2C2439C700985151 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280BC2C2439C700985151 /* SwiftConcurrencyApp.swift */; };
 		DFA280BF2C2439C700985151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280BE2C2439C700985151 /* ContentView.swift */; };
 		DFA280C12C2439C800985151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA280C02C2439C800985151 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		DF8C356F2C288F6C00F906E1 /* PostsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewModel.swift; sourceTree = "<group>"; };
 		DF8C35712C288FAF00F906E1 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
 		DF9276592C28C68500114D09 /* UserAndPostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndPostsModel.swift; sourceTree = "<group>"; };
+		DF9BA5A22C2AB5400053EBB2 /* Continuations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continuations.swift; sourceTree = "<group>"; };
 		DFA280B92C2439C700985151 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA280BC2C2439C700985151 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		DFA280BE2C2439C700985151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				DF5865FE2C257ECA00893B16 /* Concurrency1.swift */,
 				DF753E792C25DE49003EDCDF /* Concurrency2.swift */,
 				DFA280BE2C2439C700985151 /* ContentView.swift */,
+				DF9BA5A22C2AB5400053EBB2 /* Continuations.swift */,
 				DF87D3C12C256F4C000C0DF9 /* DownloadingImageAsync.swift */,
 				DF87D3BF2C2564A5000C0DF9 /* ErrorHandling1.swift */,
 				DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */,
@@ -278,6 +281,7 @@
 				DF753E782C25BA96003EDCDF /* AsyncAwait.swift in Sources */,
 				DF7A83062C287C810061442F /* UsersListViewModel.swift in Sources */,
 				DF86DC672C295D5100BBA9A1 /* AsyncLet.swift in Sources */,
+				DF9BA5A32C2AB5400053EBB2 /* Continuations.swift in Sources */,
 				DF8973912C2885580019BEBD /* MockData.swift in Sources */,
 				DF7A82FF2C285D940061442F /* APIService.swift in Sources */,
 				DF7A82FC2C285D5F0061442F /* PostModel.swift in Sources */,

@@ -18,6 +18,8 @@
 > > An instance of the Task type provides an environment where you can execute asynchronous functions or methods.
 > - ⚙️ [TaskGroup](./SwiftConcurrency/TaskGroupStudy.swift)
 > > A group that contains dynamically created child tasks.
+> - ⚙️ [Continuations](./SwiftConcurrency/Continuations.swift)
+> > Older Swift code uses completion handlers for notifying us when some work has completed, and sooner or later you’re going to have to use it from an async function – either because you’re using a library someone else created. Swift uses continuations to solve this problem, allowing us to create a bridge between older functions with completion handlers and newer async code.
 > - ⚙️ [Review - From Completion Handler to Async and Await](./SwiftConcurrency/Review)
 > > - In this part, we will focus on creating our models from the JSON and an APIService to process the response.
 > > - In this part, we will create a generic function to handle the different api endpoints and models and use a Result based completion handler with our own designed API Error.
