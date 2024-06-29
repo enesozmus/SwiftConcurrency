@@ -27,6 +27,7 @@
 		DF8C35722C288FAF00F906E1 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8C35712C288FAF00F906E1 /* PostsListView.swift */; };
 		DF92765A2C28C68500114D09 /* UserAndPostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9276592C28C68500114D09 /* UserAndPostsModel.swift */; };
 		DF9BA5A32C2AB5400053EBB2 /* Continuations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BA5A22C2AB5400053EBB2 /* Continuations.swift */; };
+		DF9BA5A52C2ABE5B0053EBB2 /* Review2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BA5A42C2ABE5B0053EBB2 /* Review2.swift */; };
 		DFA280BD2C2439C700985151 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280BC2C2439C700985151 /* SwiftConcurrencyApp.swift */; };
 		DFA280BF2C2439C700985151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA280BE2C2439C700985151 /* ContentView.swift */; };
 		DFA280C12C2439C800985151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA280C02C2439C800985151 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		DF8C35712C288FAF00F906E1 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
 		DF9276592C28C68500114D09 /* UserAndPostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndPostsModel.swift; sourceTree = "<group>"; };
 		DF9BA5A22C2AB5400053EBB2 /* Continuations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continuations.swift; sourceTree = "<group>"; };
+		DF9BA5A42C2ABE5B0053EBB2 /* Review2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review2.swift; sourceTree = "<group>"; };
 		DFA280B92C2439C700985151 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA280BC2C2439C700985151 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		DFA280BE2C2439C700985151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				DFA280CB2C2439FE00985151 /* ErrorHandling2.swift */,
 				DFA280C22C2439C800985151 /* Preview Content */,
 				DF7A82F72C285D240061442F /* Review */,
+				DF9BA5A42C2ABE5B0053EBB2 /* Review2.swift */,
 				DF7E49392C29DC15005647D4 /* TaskGroupStudy.swift */,
 				DFC73AF62C26F724007FB6CF /* TaskStudy.swift */,
 			);
@@ -272,6 +275,7 @@
 				DF753E7A2C25DE49003EDCDF /* Concurrency2.swift in Sources */,
 				DF87D3C02C2564A5000C0DF9 /* ErrorHandling1.swift in Sources */,
 				DFC73AF72C26F724007FB6CF /* TaskStudy.swift in Sources */,
+				DF9BA5A52C2ABE5B0053EBB2 /* Review2.swift in Sources */,
 				DFA280BF2C2439C700985151 /* ContentView.swift in Sources */,
 				DFA280BD2C2439C700985151 /* SwiftConcurrencyApp.swift in Sources */,
 				DF7E493A2C29DC15005647D4 /* TaskGroupStudy.swift in Sources */,

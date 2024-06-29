@@ -12,10 +12,11 @@ struct SwiftConcurrencyApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            UsersListView()
-                .onAppear {
-                    UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
-                }
+            //            UsersListView()
+            //                .onAppear {
+            //                    UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+            //                }
+            Review2()
         }
     }
 }
